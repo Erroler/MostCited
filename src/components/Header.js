@@ -6,8 +6,9 @@ import {
   HStack,
   Text,
   useColorMode,
+  Link,
 } from "@chakra-ui/react";
-import { Link } from "gatsby";
+import { Link as GatsbyLink } from "gatsby";
 import React from "react";
 import { FaGithub, FaLightbulb, FaMoon } from "react-icons/fa";
 
@@ -22,14 +23,14 @@ const Header = () => {
 
   return (
     <>
-      <Link to="/">
+      <GatsbyLink to="/">
         <Heading as="h1" size="4xl" mb={4}>
           Most&nbsp;
           <Text as="span" textColor="blue.500">
             Cited
           </Text>
         </Heading>
-      </Link>
+      </GatsbyLink>
       <Text fontSize="xl" pl={1} mb={0}>
         A collection of the most cited papers from top conferences.
       </Text>
