@@ -60,9 +60,11 @@ const Header = () => {
         >
           Dark Mode
         </Button>
-        <Button leftIcon={<FaGithub />} variant="outline" size="sm">
-          GitHub Repository
-        </Button>
+        <Link href="https://github.com/Erroler/MostCited" isExternal>
+          <Button leftIcon={<FaGithub />} variant="outline" size="sm">
+            GitHub Repository
+          </Button>
+        </Link>
       </HStack>
       <Divider mb={4} />
     </>
