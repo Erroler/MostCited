@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import * as React from "react";
-import Header from "./header";
+import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
