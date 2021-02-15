@@ -17,4 +17,4 @@ jobs:
           gatsby-args: --prefix-paths
         env:
           MICROSOFT_ACADEMIC_API_KEY: ${{ secrets.MICROSOFT_ACADEMIC_API_KEY }}
-          GATSBY_PATH: "/mostcited"
+          GATSBY_PATH: "/MostCited"
