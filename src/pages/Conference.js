@@ -83,6 +83,7 @@ const PaperRow = ({ paper }) => {
 export default function ConferencePage({
   pageContext: { conference, displayYear },
 }) {
+  if (!conference) return <></>;
   const allPapers = conference.years.filter(
     ({ year }) => year == displayYear
   )[0].papers;
