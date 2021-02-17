@@ -1,5 +1,5 @@
 <a href="https://erroler.github.io/MostCited/">
-  <img alt="Most Cited Logo" src="https://i.imgur.com/xgjcBJm.png" />
+  <img alt="Most Cited Logo" src="https://i.imgur.com/tesuCXh.png" />
 </a>
 
 A collection of the most cited papers from top conferences. 
